@@ -1,0 +1,7 @@
+{
+  "name": "Week2_mobile_cross-platform",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
