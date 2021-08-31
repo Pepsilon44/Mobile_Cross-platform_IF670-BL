@@ -118,7 +118,11 @@ const App: React.FC = () => {
               </IonButton>
             </IonCol>
             <IonCol></IonCol>  
-            {hiding &&
+          </IonRow>
+          <IonRow>
+            <IonCol></IonCol>
+            <IonCol className="ion-text-center">
+          {hiding &&
               <IonCard class = 'ion-text-center'>
               <IonCardContent>
                 <p>BMI Value: {bmival}</p>
@@ -126,6 +130,8 @@ const App: React.FC = () => {
               </IonCardContent>
               </IonCard>
             }
+            </IonCol>
+            <IonCol></IonCol>
           </IonRow>
         </IonGrid>
       </IonContent>
