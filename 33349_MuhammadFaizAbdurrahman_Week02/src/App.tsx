@@ -5,9 +5,9 @@ import {
   IonCol, IonButton, 
   IonItem, IonLabel, 
   IonInput, IonIcon,
-  IonHeader, IonPage, 
+  IonHeader,
   IonTitle, IonToolbar, 
-  IonFooter, IonCard, 
+  IonCard, 
   IonCardContent 
 } from '@ionic/react';
 import { IonReactRouter } from '@ionic/react-router';
